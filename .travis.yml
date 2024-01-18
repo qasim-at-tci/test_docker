@@ -5,6 +5,5 @@ services:
 install: skip
 before_install:
   - docker version
-  - make executable-scripts
   - ./test.sh
 script: true

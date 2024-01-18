@@ -5,5 +5,6 @@ services:
 install: skip
 before_install:
   - docker version
+  - chmod 755 test.sh
   - ./test.sh
 script: true
